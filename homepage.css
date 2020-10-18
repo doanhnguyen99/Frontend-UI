@@ -1,0 +1,164 @@
+a{
+  color:black;
+}
+a:hover{
+  color: #E62E04;
+  text-decoration: none;
+}
+/* --- */
+.main-top-1{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #B4ACAC;
+  max-width: 1300px;
+  margin: auto;
+}
+.main-top-1-left{
+  display: flex;
+  align-items: center;
+}
+.main-top-1-left div{
+  padding: 1px 14px;
+  margin: 3px 0px;
+}
+.main-top-1-left div:nth-child(1){
+  border-right: 1px solid;
+}
+.main-top-1-right{
+  display: flex;
+  align-items: center;
+}
+.main-top-1-right div{
+  margin: 4px 12px;
+}
+.main-top-1-right login-register{
+  display: flex;
+}
+/* search */
+.logo-search{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 30px;
+}
+/* .logo-search>div{
+  margin-left:0px;
+} */
+.logo-search div:nth-child(2){
+  flex-grow: 1;
+  max-width: 700px;
+}
+.header-input-address{
+  display: flex;
+}
+.header-input-address input{
+  border: 1px solid #FED700;
+  background: #FFFFFF;
+  border-radius: 21px 0px 0px 21px;
+  outline: none;
+  height: 35px;
+  width: 240px;
+  padding-left: 15px;
+  flex-grow: 1;
+}
+.header-input-address button{
+  border: 1px solid #FED700;
+  background: #FED700;
+  border-radius: 0px 21px 21px 0px;
+  outline: none;
+  color: white;
+  padding: 2px 20px;
+}
+/* cart */
+.cart a{
+  font-size: 30px;
+}
+.cart span{
+  font-size: 14px;
+  position: absolute;
+  background-color: #FED700;
+}
+
+/* menu + slide */
+.main-top-3{
+  background: #F7F7F7;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+/* .menu-slide{
+  
+} */
+.menu-slide .menu-container{
+  background-color: white;
+  /* border: 1px solid; */
+  padding: 0;
+  border-radius: 21px;
+  position: relative;
+  top:-44px;
+}
+/* home menu */
+.home-menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.home-menu-title{
+  background: #FED700;
+  border-radius: 21px 21px 0px 0px;
+}
+.home-menu li{
+  border-bottom: 1px solid #898989;
+  padding: 10px;
+}
+.home-menu li:nth-last-child(1){
+  border-bottom: none;
+}
+/* slide */
+.slide-container{
+  padding: 0;
+}
+.home-main-menu-container{
+  position: absolute;
+  top:-44px;
+  height: 44px;
+}
+.home-main-menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100%;
+}
+.home-main-menu li{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-weight: 800;
+  padding: 8px 20px;
+}
+.home-main-menu li i{
+  padding: 0px 10px;
+}
+
+/* xu hướng tìm kiếm */
+.main-top-4{
+  margin-bottom: 50px;
+}
+.main-top-4-title{
+  font-size: 30px;
+}
+.main-top-4-container>div{
+  padding-left: 0px;
+  padding-bottom: 15px;
+}
+.main-top-4-container>div>a>div{
+  background: #EEF8FF;
+  font-size: 17px;
+  display: flex;
+  padding:10px;
+  border-radius: 15px;
+}
+.main-top-4-container>div>a>div img{
+  width: 40%;
+  padding: 5px;
+}
