@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- link font-awesome - use to have icon fb, intagram... -->
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <!-- link carousel -->
+  <link rel="stylesheet" href="carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="carousel/assets/owl.theme.default.css">
+  <!-- ---- -->
   <link rel="stylesheet" href="homepage.css">
   <link rel="stylesheet" href="footer.css">
 </head>
@@ -73,21 +77,67 @@
             <nav class="nav flex-column">
               <ul class="home-menu">
                 <li class="home-menu-title">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <strike><i class="fa fa-bars" aria-hidden="true"></i></strike>
                     All departments
                 </li>
-                <li class="">
+                <li class="drop-horizontal">
                   <a href="#">
                     Automotive & Motorcycle
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                   </a>
+                  <div class="drop-horizontal-content">
+                    <ul>
+                      <li class="drop-horizontal">
+                        abc
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <div class="drop-horizontal-content">
+                          <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li>def</li>
+                      <li>ikl</li>
+                      <li>xyz</li>
+                    </ul>
+                  </div>
                 </li>
-                <li class="">
+
+                <li class="drop-horizontal">
                   <a href="#">
                     Automotive & Motorcycle
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
                   </a>
+                  <div class="drop-horizontal-content">
+                    <ul>
+                      <li class="drop-horizontal">
+                        abc
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <div class="drop-horizontal-content">
+                          <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li>def</li>
+                      <li>ikl</li>
+                      <li>xyz</li>
+                    </ul>
+                  </div>
                 </li>
+
                 <li class="">
                   <a href="#">
                     Automotive & Motorcycle
@@ -128,21 +178,63 @@
   
             </nav>
           </div>
+          <!-- slide start here -->
           <div class="col-xl-9 col-lg-8 slide-container">
             <div class="home-main-menu-container">
               <ul class="home-main-menu">
-                <li>Home
-                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+                <li class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    Home                   
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
                 </li>
-                <li>Shop
-                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+                <li class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    Pages                   
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
                 </li>
-                <li>Blog
-                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+                <li class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    Shop                   
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
                 </li>
-                <li>Page
-                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+                <li class="dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    Blog                 
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
                 </li>
+
               </ul>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -181,40 +273,106 @@
       <div class="main-top-4-title">
         Xu hướng tìm kiếm
       </div>
-      <div class="main-top-4-container row">
-        <div class="col-lg-3 col-md-6">
-          <a href="">
-            <div>
-              <img src="image/cate-image-1.jpg" alt="">
-              <span>Sữa tăng chiều cao</span>
-            </div>
-          </a>
+
+        <div class="owl-carousel owl-theme owl-carousel-category">
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <div>
+                <img src="image/cate-image-1.jpg" alt="">
+                <span>Sữa tăng chiều cao</span>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <a href="">
-            <div>
-              <img src="image/cate-image-1.jpg" alt="">
-              <span>Sữa tăng chiều cao</span>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <a href="">
-            <div>
-              <img src="image/cate-image-1.jpg" alt="">
-              <span>Sữa tăng chiều cao</span>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <a href="">
-            <div>
-              <img src="image/cate-image-1.jpg" alt="">
-              <span>Sữa tăng chiều cao</span>
-            </div>
-          </a>
-        </div>
-      </div>
+     
     </div>
 
     <!-- sale + featured + top rated -->
@@ -575,26 +733,32 @@
     <div class="main-top-7 container-fluid">
       <div class="row">
         <div class="col-1"></div>
+
         <div class="col-2">
           <i class="fa fa-gift" aria-hidden="true"></i>
           <div>Great Value</div> 
           Nunc Id Ante Quis Tellus Faucibus Dictum In Eget.</div>
+
         <div class="col-2">
           <i class="fa fa-rocket" aria-hidden="true"></i>
           <div>Worlwide Delivery</div>
           Quisque Posuere Enim Augue, In Rhoncus Diam Dictum Non</div>
+
         <div class="col-2">
           <i class="fa fa-lock" aria-hidden="true"></i>
           <div>Safe Payment</div>
           Duis Suscipit Elit Sem, Sed Mattis Tellus Accumsan.</div>
+
         <div class="col-2">
           <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
           <div>Shop Confidence</div>
           Faucibus Dictum Suscipit Eget Metus. Duis Elit Sem, Sed.</div>
+
         <div class="col-2">
           <i class="fa fa-user" aria-hidden="true"></i>
           <div> 24/7 Help Center</div>
           Quisque Posuere Enim Augue, In Rhoncus Diam Dictum Non.</div>
+
         <div class="col-1"></div>
       </div>
     </div>
@@ -705,5 +869,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="carousel/owl.carousel.js"></script>
+  <script src="js/home_page.js"></script>
 </body>
 </html>

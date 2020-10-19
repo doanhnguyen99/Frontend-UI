@@ -97,7 +97,7 @@ a:hover{
   padding: 0;
   border-radius: 21px;
   position: relative;
-  top:-44px;
+  top:-53px;
 }
 /* home menu */
 .home-menu{
@@ -110,8 +110,19 @@ a:hover{
   border-radius: 21px 21px 0px 0px;
 }
 .home-menu li{
-  border-bottom: 1px solid #898989;
-  padding: 10px;
+  border-bottom: 1px solid #ebdddd;
+  padding: 14px;
+  position: relative;
+}
+/* .home-menu li:nth-child(1){
+  position: static;
+} */
+.home-menu li>a>i,.home-menu li>i{
+    position: absolute;
+    /* right: 0; */
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .home-menu li:nth-last-child(1){
   border-bottom: none;
@@ -167,6 +178,43 @@ a:hover{
 .main-top-4-container>div>a>div img{
   width: 40%;
   padding: 5px;
+  display: inline;
+}
+
+/* fix .owl-carousel-category have many item show */
+.owl-carousel-category .owl-item{
+  background:#EEF8FF;
+  padding:10px;
+  border-radius: 15px;
+}
+.owl-carousel-category .owl-item>div>a>div{
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.owl-carousel-category .owl-item img{
+  width: 40%;
+  padding: 5px;
+}
+
+.owl-prev, .owl-next {
+  height: 50px;
+  position: absolute;
+  top: 13%;
+  /* transform: translateY(-128%); */
+  display: block !important;
+  border:1px solid black;
+  border-radius: 50%;
+  outline: none!important;
+}
+.owl-prev:hover, .owl-next:hover{
+  background-color: white!important;
+}
+.owl-prev { left: -35px; }
+.owl-next { right: -35px; }
+.owl-prev i, .owl-next i {
+  transform : scale(2,5); color: #ccc;
+  font-size: 20px;
 }
 
 
@@ -359,4 +407,29 @@ a:hover{
 }
 .main-top-7>div>div:last-child{
   padding-right: 0;
+}
+
+
+
+/* utity */
+.drop-horizontal{
+  position: relative;
+}
+.drop-horizontal-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 270px;
+  right: -270px;
+  top:0px;
+}
+.drop-horizontal-content ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.drop-horizontal:hover>.drop-horizontal-content{
+  display: block;
 }

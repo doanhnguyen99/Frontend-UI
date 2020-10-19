@@ -85,6 +85,9 @@
 }
 .footer-contact>div{
   margin-left: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .social-footer{
   padding: 0px;
