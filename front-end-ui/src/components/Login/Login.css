@@ -1,0 +1,55 @@
+.title-login{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.line-item{  
+    border: 2px;
+    height: 3px;
+    width: 70%;
+    background: rgb(0,36,4);
+    background: linear-gradient(90deg, rgba(0,36,4,1) 0%, rgba(224,255,0,0.006039915966386533) 0%, rgba(0,0,0,1) 0%, rgba(167,253,44,1) 0%, rgba(247,252,13,1) 37%, rgba(0,0,0,1) 44%);
+    margin-bottom: 10px;
+}
+
+
+.title-content{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;  
+    color: #000000;
+}
+
+.style-input-span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.input-custom{
+    margin: 15px 0;
+    background: #FFFFFF;
+    border: 1px solid #C9B9B9;
+    box-sizing: border-box;
+    border-radius: 163px;
+    width: 70%;
+    height: 50px;
+    padding-left: 25px;
+}
+
+.submit-form{
+    height: 60px;
+    width: 135px;
+    background: #FDD613;
+    border-radius: 90px;
+    border: black;
+}
