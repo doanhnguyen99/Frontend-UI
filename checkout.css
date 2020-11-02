@@ -1,0 +1,132 @@
+.checkout{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.checkout .breadcrumb{
+  background-color: white!important;
+  margin: 0!important;
+  padding-left: 0px!important;
+  padding-bottom: 25px!important;
+}
+.checkout .checkout-title{
+  text-transform: capitalize;
+  font-size: 40px;
+  padding: 16px 0px 0px;
+}
+.checkout .express-checkout{
+  text-align: center;
+  padding-bottom: 12px;
+}
+.checkout .checkout-seperate{
+  display: flex;
+  align-items: center;
+  padding: 25px 0px 0px;
+}
+.checkout .checkout-seperate div:nth-child(1),
+.checkout .checkout-seperate div:nth-child(3){
+  border-bottom: 1px solid #F0EDED;
+  flex-grow: 1;
+}
+.checkout .checkout-seperate div:nth-child(2){
+  padding: 0px 4px;
+  color: #737373;
+}
+
+.checkout-contact-title{
+  display: flex;
+  align-items: center;
+  padding: 25px 0px 16px;
+}
+.checkout-contact-title div.p1{
+  font-size: 30px;
+}
+.checkout-contact-title div.p2{
+  font-size: 15px;
+  color: #545454;
+}
+.checkout-contact-title div:nth-child(2){
+  flex-grow: 1;
+}
+
+.checkout .checkout-address{
+  color: #333333;
+  font-size: 20px;
+  padding-bottom:16px;
+}
+.form-group-dis-margin{
+  margin: 0px!important;
+}
+
+.checkout-form-nevigate{
+  display: flex;
+  align-items: center;
+  padding-bottom:16px;
+}
+.checkout-form-nevigate div.p1{
+  font-size: 14px;
+}
+.checkout-form-nevigate div:nth-child(2){
+  flex-grow: 1;
+}
+
+.checkout-seperate-big{
+  border-right: 1px solid #C4C4C4;
+}
+.checkout-discount{
+  margin-top: 20px!important;
+}
+.checkout-discount div{
+  margin-right: 16px!important;
+}
+/* -------------------------- */
+.checkout-product{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.checkout-product div:nth-child(2){
+  flex-grow: 1;
+}
+.checkout-product div:nth-child(1){
+  padding-right: 10px;
+}
+.checkout-product div:nth-child(3){
+  padding-left: 10px;
+}
+/* -------------------- */
+.checkout-discount,.checkout-product-total{
+  margin-bottom: 20px;
+}
+.checkout-product-total{
+  display: flex;
+}
+/* -------------------- */
+.padding-right-0{
+  padding-right: 0px!important;
+}
+.padding-left-0{
+  padding-left: 0px!important;
+}
+.padding-bottom-15{
+  padding-bottom: 15px!important;
+}
+.padding-bottom-16{
+  padding-bottom: 16px!important;
+}
+.padding-top-20{
+  padding-top: 20px!important;
+}
+.background-black{
+  background-color: #000000!important;
+  color: white;
+}
+.btn-gray{
+  background: #C0BEBE;
+  color: white;
+}
+.flex-grow-1{
+  flex-grow: 1;
+}
+.width-100{
+  width: 100%!important;
+}
